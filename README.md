@@ -13,5 +13,17 @@ The output binary is at ./target/release/rtk. This produces a standalone binary,
 # Run
 Look at the help output with:
 ```bash
-rtk help
+./rtk help
+```
+You need to generate a config:
+```bash
+./rtk config
+```
+List the available serialports to name the right one in the config:
+```bash
+./rtk device
+```
+Run according to the Config.toml file with:
+```bash
+./rtk
 ```
