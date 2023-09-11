@@ -8,8 +8,7 @@ To compile the project you need the rust package manager cargo(https://www.rust-
 ```bash
 cargo build --release
 ```
-The output binary is at ./target/release/rtk.
-This produces a standalone binary, thus you can copy it anywhere.
+The output binary is at ./target/release/rtk. This produces a standalone binary, thus you can copy it anywhere.
 
 # Run
 Look at the help output with:
