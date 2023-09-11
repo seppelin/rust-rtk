@@ -4,7 +4,7 @@ A simple programm which connects to an ntrip caster and to a ublox device and se
  - rtcm bytes from ntrip to ublox
 
 # compiling
-To compile the project you need the rust package manager cargo(https://www.rust-lang.org/)
+To compile the project you need the rust package manager cargo(https://www.rust-lang.org/).
 ```bash
 cargo build --release
 ```
